@@ -1,0 +1,9 @@
+Building SCitW
+
+See doc/readme-qt.rst for instructions on building SCitW QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of SCitW.
+
+See doc/build-*.txt for instructions on building SCitWd,
+the intended-for-services, no-graphical-interface, reference
+implementation of SCitW.
