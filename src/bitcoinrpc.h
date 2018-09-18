@@ -3,6 +3,11 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+// 
+// September 2018  StakeReport added, any Questions ? feel free to ask 
+// Twitter/Tillkoeln  .. Youtube/Tillkoeln ... Bitcointalk/Tillkoeln
+//  https://yobit.net/en/pm/create/Tillkoeln
+
 #ifndef _BITCOINRPC_H_
 #define _BITCOINRPC_H_ 1
 
@@ -218,5 +223,6 @@ extern json_spirit::Value getblockhash(const json_spirit::Array& params, bool fH
 extern json_spirit::Value getblock(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getblockbynumber(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getcheckpoint(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value getstakereport(const json_spirit::Array& params, bool fHelp);
 
 #endif

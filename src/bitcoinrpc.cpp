@@ -3,6 +3,10 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+// September 2018  StakeReport added, any Questions ? feel free to ask 
+// Twitter/Tillkoeln  .. Youtube/Tillkoeln ... Bitcointalk/Tillkoeln
+//  https://yobit.net/en/pm/create/Tillkoeln
+
 #include "init.h"
 #include "util.h"
 #include "sync.h"
@@ -307,6 +311,7 @@ static const CRPCCommand vRPCCommands[] =
     { "makekeypair",            &makekeypair,            false,  true},
     { "sendalert",              &sendalert,              false,  false},
 	{ "multisend",              &multisend,              false,  false },		
+	{ "getstakereport",         &getstakereport,         false,  false},	
 };
 
 CRPCTable::CRPCTable()

@@ -23,3 +23,8 @@ Coin Maximum Age : Unlimited
 changelog:
 
 
+~ September 2018 + Stake 4 Charity
+~ September 2018 + Stake Report 
+
+
+
