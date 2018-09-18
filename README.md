@@ -20,22 +20,6 @@ Coin Maximum Age : Unlimited
 
 
 
-Premine : 5 % 
-
-PoW Coin Supply : 2100000000 SCitW`s 
-
-Block Time : 5 Minutes
-
-Last Block 2000000
-
-Block : 2-200 = 100 SCitW`s 
-
-Block : 201 - 2000000 = 1000 SCitW`s 
-
-
-RPCPort :  55511
-
-P2PPort :      55522     
-
+changelog:
 
 
