@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = SCitW-Hydra-qt
-VERSION = 1.1.0
+TARGET = SCitW-Pre-Hydra-qt
+VERSION = 1.2.1
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
@@ -249,6 +249,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/bitcoinrpc.h \
     src/qt/overviewpage.h \
     src/qt/csvmodelwriter.h \
+	src/qt/multisenddialog.h \
     src/crypter.h \
     src/qt/sendcoinsentry.h \
     src/qt/qvalidatedlineedit.h \
@@ -279,7 +280,8 @@ HEADERS += src/qt/bitcoingui.h \
     src/sph_fugue.h \
     src/sph_hamsi.h \
     src/sph_types.h \
-    src/clientversion.h
+    src/clientversion.h 
+
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -342,6 +344,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/notificator.cpp \
     src/qt/qtipcserver.cpp \
     src/qt/rpcconsole.cpp \
+	src/qt/multisenddialog.cpp \
     src/noui.cpp \
     src/kernel.cpp \
     src/scrypt-arm.S \
@@ -372,6 +375,7 @@ FORMS += \
     src/qt/forms/editaddressdialog.ui \
     src/qt/forms/transactiondescdialog.ui \
     src/qt/forms/overviewpage.ui \
+	src/qt/forms/multisenddialog.ui \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
